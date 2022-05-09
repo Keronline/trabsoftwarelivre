@@ -32,7 +32,6 @@ body{
 }
 
 .container div{
-    min-width: 30rem;
     width: 100%;
     height: auto;
     display: flex;
@@ -112,3 +111,8 @@ body{
     transform: scale(0.9);
 }
 
+@media (min-width: 768px){
+    #references p{
+        overflow: hidden;
+    }
+}
