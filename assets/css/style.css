@@ -57,6 +57,16 @@ body{
     transition: transform 0.3s;
     margin-block: 1rem;
     position: static;
+    padding: 2rem;
+    border: 1px solid white;
+}
+
+.container #culture p{
+    border: none;
+}
+
+.container #culture div{
+    border: 2px solid white;
 }
 
 .container .free:hover {
@@ -89,9 +99,13 @@ body{
     margin: 0.2rem;
     align-items: center;
     justify-content: center;
+    transition: transform 0.4s;
 }
 
 .menu a:hover{
     background-color: white;
     color: #202020;
+    font-size: 1.3rem;
+    transform: scale(0.9);
 }
+
