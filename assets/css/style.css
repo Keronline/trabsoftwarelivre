@@ -65,11 +65,11 @@ body{
     border: 1px solid white;
 }
 
-.container #culture p, #history p{
+.container #culture p, #history p, #law p{
     border: none;
 }
 
-.container #culture div, #history div{
+.container #culture div, #history div, #law div{
     border: 2px solid white;
 }
 
