@@ -70,14 +70,11 @@ body{
     border: none;
 }
 
-.container #culture div{
+.container #culture div, #history div{
     border: 2px solid white;
 }
 
-.container #history p:hover{
-    background-color: white;
-    color: #404040;
-}
+
 
 .container #references p{
     margin-bottom: 8rem;
