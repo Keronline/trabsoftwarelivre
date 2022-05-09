@@ -32,6 +32,7 @@ body{
 }
 
 .container div{
+    min-width: 30rem;
     width: 100%;
     height: auto;
     display: flex;
@@ -40,8 +41,13 @@ body{
     text-align: justify;
 }
 
-.container div h3{
-    font-size: 1.6rem;
+.container p:hover{
+    color: #404040;
+    background-color: white;
+}
+
+.container div h2{
+    font-size: 1.9rem;
     color: white;
     letter-spacing: 0.1rem;
     padding: calc(8% + 2rem);
@@ -55,13 +61,12 @@ body{
     letter-spacing: 0.03rem;
     text-align: justify;
     transition: transform 0.3s;
-    margin-block: 1rem;
     position: static;
     padding: 2rem;
     border: 1px solid white;
 }
 
-.container #culture p{
+.container #culture p, #history p{
     border: none;
 }
 
@@ -69,12 +74,13 @@ body{
     border: 2px solid white;
 }
 
-.container .free:hover {
-    transform: scale(1.1);
+.container #history p:hover{
     background-color: white;
-    color: #202020;
-    border-radius: 5px;
-    padding-inline: 0.5rem;
+    color: #404040;
+}
+
+.container #references p{
+    margin-bottom: 8rem;
 }
 
 /* =============Menu++++++++++++++++ */
